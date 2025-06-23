@@ -30,4 +30,4 @@ const adminAuth = async (req, res, next) => {
   }
 };
 
-export default AdminAuth;
+export default adminAuth;
