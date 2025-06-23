@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["https://onecart-frontend-fqh6.onrender.com", "https://onecart-admin-9sc9.onrender.com"],
+    origin: ["https://onecart-frontend-fqh6.onrender.com", "https://luxury-blini-011dd2.netlify.app/"],
     credentials: true,
   })
 );
