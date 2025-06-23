@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 
-const AdminAuth = async (req, res, next) => {
+const adminAuth = async (req, res, next) => {
   try {
     const { token } = req.cookies;
 
