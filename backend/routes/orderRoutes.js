@@ -8,7 +8,7 @@ import {
   userOrders,
   verifyRazorpay,
 } from "../controller/orderController.js";
-import adminAuth from "../middleware/AdminAuth.js";
+import adminAuth from "../middleware/adminAuth.js";
 
 const orderRoutes = express.Router();
 // for user
