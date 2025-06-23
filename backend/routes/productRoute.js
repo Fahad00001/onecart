@@ -5,7 +5,7 @@ import {
   removeProduct,
 } from "../controller/productController.js";
 import express from "express";
-import adminAuth from "../middleware/AdminAuth.js";
+import adminAuth from "../middleware/adminAuth.js";
 
 const productRoute = express.Router();
 
